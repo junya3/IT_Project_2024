@@ -1,7 +1,7 @@
 <?php
 
 //接続情報
-$dbname = 'mysql:dbname=it_minibbs;host=localhost;charset=utf8;';
+$dbname = 'mysql:dbname=it_project_team_production;host=localhost;charset=utf8;';
 $user = 'root';
 $password = '';
 
