@@ -21,4 +21,3 @@ git switch feature/add-login-page
 # 作成したブランチをリモートリポジトリにプッシュ ( 追跡可能にするため )
 git push -u origin feature/add-login-page
 ```
-＃ちゃす
