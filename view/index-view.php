@@ -3,12 +3,9 @@
 
 <!-- 後々コンポーネントで管理したい -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="../assets/style.css">
-</head>
+<?php
+include "../component/head.php";
+?>
 
 <body>
     <h1>こんにちは</h1>
