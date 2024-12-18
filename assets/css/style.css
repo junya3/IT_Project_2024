@@ -40,6 +40,8 @@ a{
     color: #000;
 }
 
+/* recommend */
+
 #recommend-items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -58,6 +60,8 @@ a{
     }
 }
 
+/* tags */
+
 #tag{
     .box-wrapper{
         display: grid;
@@ -75,3 +79,5 @@ a{
         border-radius: 99px;
     }
 }
+
+/* topics */
