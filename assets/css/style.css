@@ -58,7 +58,7 @@ a{
     }
 }
 
-#tags{
+#tag{
     .box-wrapper{
         display: grid;
         gap:1rem;

@@ -23,7 +23,7 @@ include "../component/head.php";
                     <?php } ?>
                 </ul>
             </section>
-            <section id="tags">
+            <section id="tag">
                 <div class="box-wrapper">
                     <h2 class="box-title">人気のタグから探す</h2>
                     <!-- ここをタグの人気順やトレンドにするかカテゴリーにする -->
@@ -35,6 +35,22 @@ include "../component/head.php";
                         <?php } ?>
                     </ul>
                 </div>
+            </section>
+            <section id="topic">
+                <h2 class="sec-title">
+                    おすすめの記事
+                </h2>
+                <ul id="topics">
+                    <li>
+                        <a href="#">
+                            <img src="" alt="画像">
+                            <div class="topic-text">
+                                <h3>記事タイトル</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores doloribus natus quisquam, veniam odit aspernatur ut suscipit facere numquam! Harum reprehenderit nihil fugit, eveniet omnis temporibus molestiae rem aut!</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </section>
         </main>
         <aside>
