@@ -26,7 +26,7 @@ include "../component/head.php";
             <section id="tags">
                 <div class="box-wrapper">
                     <h2 class="box-title">人気のタグから探す</h2>
-                    <!--  -->
+                    <!-- ここをタグの人気順やトレンドにするかカテゴリーにする -->
                     <ul id="tag-items">
                         <?php for ($i = 0; $i < 10; $i++) { ?>
                             <li class="item">
