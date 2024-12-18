@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<!-- 後々コンポーネントで管理したい -->
-
 <?php
+$pageTitle = 'トップページ';
 include "../component/head.php";
 ?>
 
