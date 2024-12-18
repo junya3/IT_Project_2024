@@ -3,4 +3,38 @@
 html{
     font-size: 16px;
     box-sizing: border-box;
+    line-height: 1;
+}
+
+main{
+    width:min(100%,900px);
+    margin-inline:auto;
+}
+section{
+/* 仮で */
+    width: min(100%,600px);
+}
+img{
+    width: 100%;
+    height:auto;
+    display: block;
+    background:#ccc;
+}
+
+#recommend-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:.8rem;
+    .item,
+    .item-inner{
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: span 3;
+        gap:.2rem;
+    }
+    .item-inner{
+        img{
+            aspect-ratio: 4 / 3;
+        }
+    }
 }
