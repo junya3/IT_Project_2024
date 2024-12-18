@@ -23,7 +23,19 @@ include "../component/head.php";
                     <?php } ?>
                 </ul>
             </section>
-
+            <section id="tags">
+                <div class="box-wrapper">
+                    <h2 class="box-title">人気のタグから探す</h2>
+                    <!--  -->
+                    <ul id="tag-items">
+                        <?php for ($i = 0; $i < 10; $i++) { ?>
+                            <li class="item">
+                                <a href="#"><?php echo ($i + 1) ?>タグ</a>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+            </section>
         </main>
         <aside>
             <p>まるまるさんおかえりなさい</p>

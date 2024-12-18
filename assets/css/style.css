@@ -4,6 +4,15 @@ html{
     font-size: 16px;
     box-sizing: border-box;
     line-height: 1;
+    letter-spacing: .04em;
+}
+section{
+    padding-block:2rem;
+}
+.sec-title{
+    padding-bottom:1em;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 #container{
@@ -13,12 +22,22 @@ html{
     gap: 1rem;
     grid-template-columns: 2fr 1fr;
 }
+.box-wrapper{
+    padding:1rem;
+    border:1px solid;
+    border-radius: 1rem;
+}
 
 img{
     width: 100%;
     height:auto;
     display: block;
     background:#ccc;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #000;
 }
 
 #recommend-items{
@@ -36,5 +55,23 @@ img{
         img{
             aspect-ratio: 4 / 3;
         }
+    }
+}
+
+#tags{
+    .box-wrapper{
+        display: grid;
+        gap:1rem;
+    }
+}
+#tag-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:.8rem;
+    a{
+        padding:.4em 1em;
+        border:solid;
+        inline-size: fit-content;
+        border-radius: 99px;
     }
 }
