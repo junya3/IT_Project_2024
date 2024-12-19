@@ -7,6 +7,7 @@ html{
     letter-spacing: .04em;
 }
 section{
+    width: 100%;
     padding-block:2rem;
 }
 .sec-title{
@@ -74,10 +75,36 @@ a{
     gap:.8rem;
     a{
         padding:.4em 1em;
-        border:solid;
+        border:1px solid;
         inline-size: fit-content;
         border-radius: 99px;
     }
 }
 
 /* topics */
+
+#topic-items{
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+}
+.topic-item{
+    a{  
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap:1rem;
+        align-items: center;
+    }
+    img{
+        aspect-ratio: 4/3;
+    }
+    .topic-text{
+        padding-block:1rem;
+        h3{
+            font-size: 1rem;
+        }
+        p{
+            line-height: 1.5;
+        }
+    }
+}

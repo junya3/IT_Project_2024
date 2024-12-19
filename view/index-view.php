@@ -40,16 +40,18 @@ include "../component/head.php";
                 <h2 class="sec-title">
                     おすすめの記事
                 </h2>
-                <ul id="topics">
-                    <li>
-                        <a href="#">
-                            <img src="" alt="画像">
-                            <div class="topic-text">
-                                <h3>記事タイトル</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores doloribus natus quisquam, veniam odit aspernatur ut suscipit facere numquam! Harum reprehenderit nihil fugit, eveniet omnis temporibus molestiae rem aut!</p>
-                            </div>
-                        </a>
-                    </li>
+                <ul id="topic-items">
+                    <?php for ($i = 0; $i < 2; $i++) { ?>
+                        <li class="topic-item">
+                            <a href="#">
+                                <img src="" alt="画像">
+                                <div class="topic-text">
+                                    <h3>記事タイトル</h3>
+                                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                                </div>
+                            </a>
+                        </li>
+                    <?php } ?>
                 </ul>
             </section>
         </main>
