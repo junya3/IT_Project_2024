@@ -42,6 +42,7 @@ include "../component/head.php";
                     おすすめの記事
                 </h2>
                 <ul id="topic-items">
+                    <!-- ここをmap関数で管理 -->
                     <?php for ($i = 0; $i < 2; $i++) { ?>
                         <li class="topic-item">
                             <a href="#">
@@ -59,6 +60,7 @@ include "../component/head.php";
             <section id="news">
                 <h2 class="sec-title">お知らせ</h2>
                 <ul class="news-items">
+                    <!-- ここをmap関数で管理 -->
                     <?php for ($i = 0; $i < 4; $i++) { ?>
                         <li>
                             <a href="#">
@@ -71,9 +73,10 @@ include "../component/head.php";
                 <a href="#" class="more-btn">お知らせ一覧ページへ</a>
             </section>
         </main>
-        <aside>
-            <p>asideは後で作ります。user情報などをいれるのがベストかと</p>
-        </aside>
+        <?php
+        // ここにasideを挿入
+        include "../component/aside.php";
+        ?>
     </div>
 </body>
 
