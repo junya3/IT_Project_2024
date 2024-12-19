@@ -22,7 +22,7 @@ include "../component/head.php";
                         </li>
                     <?php } ?>
                 </ul>
-                <a href="#" class="more-btn">もっと見る</a>
+                <a href="#" class="more-btn">おすすめをもっと探す</a>
             </section>
             <section id="tag">
                 <div class="box-wrapper">
@@ -54,7 +54,7 @@ include "../component/head.php";
                         </li>
                     <?php } ?>
                 </ul>
-                <a href="#" class="more-btn">もっと見る</a>
+                <a href="#" class="more-btn">おすすめの記事をもっと見る</a>
             </section>
             <section id="news">
                 <h2 class="sec-title">お知らせ</h2>
@@ -68,7 +68,7 @@ include "../component/head.php";
                         </li>
                     <?php } ?>
                 </ul>
-                <a href="#" class="more-btn">もっと見る</a>
+                <a href="#" class="more-btn">お知らせ一覧ページへ</a>
             </section>
         </main>
         <aside>

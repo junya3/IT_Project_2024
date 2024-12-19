@@ -40,6 +40,13 @@ a{
     text-decoration: none;
     color: #000;
 }
+.more-btn{
+    width: fit-content;
+    padding:.5em 1em;
+    margin-left: auto;
+    background:#ccc;
+    margin-top:2rem;
+}
 
 /* recommend */
 
