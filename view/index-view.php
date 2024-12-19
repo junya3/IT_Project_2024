@@ -22,6 +22,7 @@ include "../component/head.php";
                         </li>
                     <?php } ?>
                 </ul>
+                <a href="#" class="more-btn">もっと見る</a>
             </section>
             <section id="tag">
                 <div class="box-wrapper">
@@ -53,10 +54,25 @@ include "../component/head.php";
                         </li>
                     <?php } ?>
                 </ul>
+                <a href="#" class="more-btn">もっと見る</a>
+            </section>
+            <section id="news">
+                <h2 class="sec-title">お知らせ</h2>
+                <ul class="news-items">
+                    <?php for ($i = 0; $i < 4; $i++) { ?>
+                        <li>
+                            <a href="#">
+                                <p class="day">2024.12.12</p>
+                                <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex et autem unde voluptas, maiores repellat ipsum iusto aliquam, quas porro, veniam incidunt! Molestias possimus beatae, soluta doloremque laudantium nulla?</p>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
+                <a href="#" class="more-btn">もっと見る</a>
             </section>
         </main>
         <aside>
-            <p>まるまるさんおかえりなさい</p>
+            <p>asideは後で作ります。user情報などをいれるのがベストかと</p>
         </aside>
     </div>
 </body>
