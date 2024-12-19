@@ -9,7 +9,7 @@ include "../component/head.php";
     <div id="container">
         <main>
             <section id="recommend">
-                <h2 class="sec-title">あなたへのおすすめ</h2>
+                <h2 class="sec-title">あなたへのおすすめかランキング</h2>
                 <ul id="recommend-items">
                     <!-- ここをmap関数で管理 -->
                     <?php for ($i = 0; $i < 6; $i++) { ?>
