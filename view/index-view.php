@@ -2,7 +2,7 @@
 <html lang="ja">
 <?php
 $pageTitle = 'トップページ';
-include "./component/head.php";
+include_once __DIR__ . '../../component/head.php';
 ?>
 
 <body>
@@ -75,7 +75,7 @@ include "./component/head.php";
         </main>
         <?php
         // ここにasideを挿入
-        include "./component/aside.php";
+        include_once __DIR__ . '../../component/aside.php';
         ?>
     </div>
 
