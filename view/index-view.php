@@ -2,7 +2,7 @@
 <html lang="ja">
 <?php
 $pageTitle = 'トップページ';
-include "../component/head.php";
+include "./component/head.php";
 ?>
 
 <body>
@@ -75,9 +75,10 @@ include "../component/head.php";
         </main>
         <?php
         // ここにasideを挿入
-        include "../component/aside.php";
+        include "./component/aside.php";
         ?>
     </div>
+
 </body>
 
 </html>
