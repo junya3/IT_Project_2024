@@ -24,6 +24,7 @@ aside{
     position:sticky;
     top:0;
 
+    /* aside内のsectionのpaddingはbottomのみ */
     section{
         padding-block:0;
         padding-bottom: 1rem;
