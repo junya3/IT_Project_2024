@@ -12,6 +12,10 @@ $userId = 'user-id-sample';
             <p class="user-id"><?php echo $userId; ?></p>
         </div>
         <!-- もし必要ならアカウント設定、必要なければログアウト等でいいかと -->
-        <a href="#">アカウント設定</a>
+        <a href="#">
+            <span class="material-symbols-rounded">
+                account_circle
+            </span>
+        </a>
     </div>
 </aside>
