@@ -29,4 +29,7 @@ $userIcon = '';
             </a>
         </div>
     </section>
+    <section>
+        <h2 class="sec-title">クイックメニュー</h2>
+    </section>
 </aside>
