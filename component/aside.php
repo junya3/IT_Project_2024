@@ -6,6 +6,7 @@ $userId = 'user-id-sample';
 $userIcon = '';
 ?>
 <aside>
+    <h2 class="sec-title">アカウント情報</h2>
     <div class="user-container">
         <?php
         if (empty($userIcon)) {
