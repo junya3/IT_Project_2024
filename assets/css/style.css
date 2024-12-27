@@ -136,6 +136,12 @@ a{
         }
         p{
             line-height: 1.5;
+            /* 4行以降は・・・で非表示にする */
+            overflow: hidden;
+            display: -webkit-box;
+            line-clamp: 4;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
         }
     }
 }
