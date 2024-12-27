@@ -29,7 +29,13 @@ $userIcon = '';
             </a>
         </div>
     </section>
-    <section>
+    <section class="quick-menu">
         <h2 class="sec-title">クイックメニュー</h2>
+        <ul class="quick-menu-btns">
+            <li><a href="" class="q-btn">レシピを作る</a></li>
+            <li><a href="" class="q-btn">マイレシピ一覧</a></li>
+            <li><a href="" class="q-btn">ブックマーク</a></li>
+            <li><a href="" class="q-btn">リスト</a></li>
+        </ul>
     </section>
 </aside>
