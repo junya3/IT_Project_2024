@@ -23,6 +23,11 @@ aside{
     padding-block:2rem;
     position:sticky;
     top:0;
+
+    section{
+        padding-block:0;
+        padding-bottom: 1rem;
+    }
 }
 
 #container{

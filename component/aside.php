@@ -6,25 +6,27 @@ $userId = 'user-id-sample';
 $userIcon = '';
 ?>
 <aside>
-    <h2 class="sec-title">アカウント情報</h2>
-    <div class="user-container">
-        <?php
-        if (empty($userIcon)) {
-            echo '<img src="./assets/images/dummyIcon.png" alt="アイコンがありません" class="user-icon"/>';
-        } else {
-            echo '<img src="' . htmlspecialchars($userIcon, ENT_QUOTES, 'UTF-8') . '" alt="' . htmlspecialchars($userName, ENT_QUOTES, 'UTF-8') . 'の画像" class="user-icon" />';
-        }
-        ?>
+    <section class="account-info">
+        <h2 class="sec-title">アカウント情報</h2>
+        <div class="user-container">
+            <?php
+            if (empty($userIcon)) {
+                echo '<img src="./assets/images/dummyIcon.png" alt="アイコンがありません" class="user-icon"/>';
+            } else {
+                echo '<img src="' . htmlspecialchars($userIcon, ENT_QUOTES, 'UTF-8') . '" alt="' . htmlspecialchars($userName, ENT_QUOTES, 'UTF-8') . 'の画像" class="user-icon" />';
+            }
+            ?>
 
-        <div class="user-status">
-            <h3 class="user-name"><?php echo $userName; ?></h3>
-            <p class="user-id"><?php echo $userId; ?></p>
+            <div class="user-status">
+                <h3 class="user-name"><?php echo $userName; ?></h3>
+                <p class="user-id"><?php echo $userId; ?></p>
+            </div>
+            <!-- もし必要ならアカウント設定、必要なければログアウト等でいいかと -->
+            <a href="#" aria-label="アカウント設定">
+                <span class="material-symbols-rounded">
+                    settings
+                </span>
+            </a>
         </div>
-        <!-- もし必要ならアカウント設定、必要なければログアウト等でいいかと -->
-        <a href="#">
-            <span class="material-symbols-rounded">
-                settings
-            </span>
-        </a>
-    </div>
+    </section>
 </aside>
