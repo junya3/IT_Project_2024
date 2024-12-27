@@ -45,6 +45,7 @@ img{
     display: block;
     background:#ccc;
     object-fit: cover;
+    border-radius:1rem;
 }
 a{
     display: block;
@@ -68,6 +69,7 @@ a{
     margin-left: auto;
     background:#ccc;
     margin-top:2rem;
+    border-radius:.5rem;
 }
 
 /* recommend */
@@ -176,7 +178,7 @@ a{
     gap:1rem;
     border:1px solid #efefef;
     padding:1rem;
-    border-radius:20px;
+    border-radius:1rem;
     .user-status{
         display: grid;
         gap:.2rem;
