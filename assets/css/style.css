@@ -47,6 +47,7 @@ img{
     height:auto;
     display: block;
     background:#ccc;
+    object-fit: cover;
 }
 a{
     display: block;
